@@ -67,16 +67,16 @@ export default {
             titulo: 'Elaboración muestras físicas de Bóxer',
             hash: 't_4_2',
           },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.3',
+            titulo: 'Elaboración muestras físicas de brasier',
+            hash: 't_4_3',
+          },
         ],
       },
     ],
     subMenu: [
-      {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -113,128 +113,330 @@ export default {
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
+        'Alamoda, A. (2019). Academia Alamoda. Obtenido de Academia Alamoda:',
+      link: 'https://academiaconfeccionalamoda.com/',
+    },
+    {
+      referencia:
+        'A. (2018, 12 septiembre). DIY: Bralette de encaje fácil de hacer – Nocturno Design Blog. Nocturno Design Blog.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://nocturnodesignblog.com/2018/09/12/diy-bralette-de-encaje-facil-de-hacer/',
     },
     {
       referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'Colaboradores de Wikipedia. (2020, 9 diciembre). Ropa interior. Wikipedia, la enciclopedia libre.',
+      link: 'https://es.wikipedia.org/wiki/Ropa_interior',
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'DG, A. (2020). Hecho en 5 minutos. Obtenido de Hecho en 5 minutos:',
+      link: 'https://hechoen5minutos.com/',
+    },
+    {
+      referencia:
+        'Garcia, M. E. (12 de octubre de 2018). El baul de la costurera. Obtenido de El baúl de la costurera:',
+      link: 'https://www.elbauldelacosturera.com/',
+    },
+    {
+      referencia:
+        'Hatem K., L. (2019, 19 diciembre). ¡Aprende a forrar Copas Prehormadas, Así de fácil! Mi Mundo De Moda - Cursos de Costura.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://mimundodemoda.com/aprende-a-forrar-copas-prehormadas-asi-de-facil/',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
+        'Idarraga, M. E. (29 de Enero de 2017). SlideShare. Obtenido de SlideShare:',
+      link: 'https://es.slideshare.net',
     },
     {
       referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'Karu. (6 de noviembre de 2020). studiocostura.com. Obtenido de studiocostura.com:',
+      link: 'https://www.studiocostura.com/',
+    },
+    {
+      referencia:
+        'K. (2017, 16 julio). Cómo coser copas de foam para el sujetador Watson // How to sew foam cups for Watson bra. Studio COSTURA.',
+      link: 'https://www.studiocostura.com/blog/foam-cups-for-watson-tutorial',
+    },
+    {
+      referencia:
+        'K. (2019, 6 febrero). A grey teeshirt bra and panties >. with my hands - Dream.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://withmyhandsdream.com/2019/02/06/a-grey-teeshirt-bra-and-panties/?fbclid=IwAR1D5N3xnhafSBQlqrSJOYxu73u5JbDFz27FYIfwlLmB2CfXSCnu0_rBthw',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'make Bra. (2020, 26 noviembre). Sewing Instructions for Full Band Bra - Make Bra.',
+      link: 'https://learning.makebra.com/instructions/full-band-bra/',
+    },
+    {
+      referencia: 'Make a Foam Cup Bra •. (2017, 16 noviembre). Cloth Habit.',
+      link: 'https://clothhabit.com/make-a-foam-cup-bra/',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'Mariel. (2018). El taller de mariette. Obtenido de El taller de Mariette:',
+      link: 'https://www.eltallerdemariette.com/',
+    },
+    {
+      referencia:
+        'Quevedo, G. (2013). Lencería y Corsetería. Buenos aires: Utilísima.',
+    },
+    {
+      referencia:
+        'Red Producción de Contenidos Grupo Gestión Curricular SENA. (2020). [Video]. Retrieved from',
+      link: 'https://www.youtube.com/channel/UC6nVHOzgFSU1p-zQHfv7czw/videos',
+    },
+    {
+      referencia:
+        '4 Técnicas de elastizado para lencería -Segunda Parte- | El Taller de Mariette. (2017, 8 febrero). El Taller de Mariette.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://www.eltallerdemariette.com/4-tecnicas-de-elastizado-para-lenceria/?preview=true',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Bragas',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Calzón o pantalón corto y ajustado, actualmente es aplicado la prenda interior femenina. Véase pantaleta.  (academiasistemacyc.com, s.f.)',
     },
     {
-      termino: 'Suftware',
+      termino: 'Bóxer',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Prenda de ropa interior masculina, que cubre desde la cintura hasta más debajo de las ingles (calzoncillo bóxer) y se utilizan para proteger la zona genital del contacto con la ropa exterior, generalmente de algodón. (academiasistemacyc.com, s.f.)Copa	En corsetería: caparazón que guarda los senos.  (academiasistemacyc.com, s.f.)',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Corpiño',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Prenda sin mangas de cuerpo pequeño y ajustada al busto puede llegar a la mitad del talle o hasta la cintura. (academiasistemacyc.com, s.f.)',
     },
     {
-      termino: 'Áectores',
+      termino: 'Corsé',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Prenda de uso interior muy ajustada, con ballenas o varillas y que comprime el cuerpo desde el busto hasta por debajo de las caderas. (academiasistemacyc.com, s.f.)',
     },
     {
-      termino: 'Moda',
+      termino: 'Elastano',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Tejido que tiene elasticidad por su estructura o por las materias que entran en su formación, y se pone en algunas prendas de vestir para que ajusten o den de sí.  (academiasistemacyc.com, s.f.)',
     },
     {
-      termino: 'Diseño',
+      termino: 'Elástico',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Lo que se estira por acción de alguna fuerza y cuando esta cesa recobra su disposición primitiva. Un género es elástico cuando se entretejen con los hilos otros muy delgados de caucho. // Cinta o cordón que tiene elasticidad por su estructura o por las materias que entran en su formación, y se pone en algunas prendas de vestir para que ajusten generalmente utilizado en ropa interior, jaretas, etc. También se le conoce como banda elástica o resorte.  (academiasistemacyc.com, s.f.),',
     },
     {
-      termino: 'Tipología',
+      termino: 'Encaje',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Cierto tejido de mallas, lazadas o calados, con figuras u otras labores: encaje de bolillos. De tejido abierto que se forma atando o retorciendo hilos para formar un dibujo que resalta sobre el fondo de malla; tradicionalmente se fábrica de algodón, aunque también se utilizan otras fibras y colores.  (academiasistemacyc.com, s.f.)',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Entrepierna',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        '1. f. Parte interior de los muslos. 2. f. Piezas cosidas, entre las hojas de los calzones y pantalones, a la parte interior de los muslos, hacia la horcajadura. (Real Academia Española, s.f.).',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Franela',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Término genérico que designa diversos géneros de lana tejidos en distintos pesos y estambres. Incluye asimismo fibras artificiales. La franela suele tener tacto suave y una trama simple o cruzada. Está ligeramente cardada por uno de los lados. En el siglo XIX solía utilizarse para confeccionar enaguas. En el siglo XX se han usado varios tipos de franela para ropa interior, exterior, chaquetas, vestidos, faldas y pantalones. (academiasistemacyc.com, s.f.)',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Gafete',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Pequeño broche metálico con forma de gancho muy usado en la cintura de faldas como seguro de la cremallera. También conocido como broche de gancho o corchete.  (academiasistemacyc.com, s.f.)',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Jareta',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Costura que se hace doblando la orilla y cosiéndola por un lado para dejar un hueco en forma a de vaina en que pasa una cinta o un cordón para ceñir a la muñeca, tobillo, cintura, etc.  (academiasistemacyc.com, s.f.)',
+    },
+    {
+      termino: 'Lencería',
+      significado:
+        'Toda la ropa interior femenina, su confección es diferente a la de la ropa exterior, tiene un acabado delicado y exquisito. (academiasistemacyc.com, s.f.)',
+    },
+    {
+      termino: 'Lycra',
+      significado:
+        'Es una marca registrada por la empresa Du Pont en 1958 para un tejido hecho con un material sintético con propiedades elásticas del tipo llamado genéricamente spandex o fibras elastoméricas. Se trata de un polímero de cadena muy larga, formado por lo menos con un 85% de poliuretano segmentado (spandex); obteniéndose, filamentos continuos, que, pueden ser multifilamento o monofilamento. Fibra artificial elástica que realza las curvas femeninas; resistentes al fuego e indeformable. Se utilizó primero para ropa interior femenina, como las fajas, y posteriormente para la elaboración de panties, bañadores y toda clase de prendas elásticas. Es elástica, resistente al fuego y a la humedad, e indeformable. Se lava muy fácilmente. Desde que apareció, ha sido un componente esencial de la ropa interior como fajas y panties. Durante los años 70 se incorporó a las panty-medias, bañadores y prendas de gimnasia. Cuando se mezcla con otros tejidos les confiere elasticidad.  (academiasistemacyc.com, s.f.)',
+    },
+    {
+      termino: 'Nylon',
+      significado:
+        'Palabra del idioma inglés. Material sintético de índole nitrogenada, del que se hacen filamentos elásticos, muy resistentes. Se emplea en la fabricación de géneros de punto y tejidos diversos. Véase Nailon.  (academiasistemacyc.com, s.f.)',
+    },
+    {
+      termino: 'Ropa interior',
+      significado:
+        'La que se lleva debajo del vestido y otras prendas de uso exterior.  (academiasistemacyc.com, s.f.)',
+    },
+    {
+      termino: 'Sujetador o sostén',
+      significado:
+        'Es un elemento de ropa interior femenina que consiste en dos copas que cubren total o parcialmente los pechos como soporte y pudor. Además de la conexión de las copas, tiene generalmente cuatro bandas, dos en los lados que se sujetan el uno al otro en la espalda o parte anterior sobre el pecho y dos sobre los hombros, que se unen a los otros dos en la espalda. También conocido como brassiere.  (academiasistemacyc.com, s.f.)',
+    },
+    {
+      termino: 'Strapless',
+      significado:
+        'Termino que proviene del inglés "strapless" que significa sin tirantes. Es el nombre del corte que se aplica en algunos vestidos de noche y blusas formales en donde no lleva tirantes y va completamente ajustado al busto resaltando la espalda y el escote con los hombros al descubierto.  (academiasistemacyc.com, s.f.)',
+    },
+    {
+      termino: 'Velo',
+      significado:
+        'Lienzo o tul transparente y fino o de encajes con el que se cubre la cabeza o la cara como adorno o manifestación de luto cuando es negro.  (academiasistemacyc.com, s.f.)',
+    },
+    {
+      termino: 'Vivo',
+      significado:
+        'Tira de tela estrecha cortada al sesgo con la que se pulen bordes de forma visible y al mismo tiempo sirve de adorno. Tira de tela con la que se pulen los bolsillos gilet. Cinta, cordoncillo o trencilla en los bordes o costuras de los vestidos.  (academiasistemacyc.com, s.f.)',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
+        'Champion, C. S. (2019). Proceso productivo de lencería industrial para varones. Facultad de Tecnología, Universidad Nacional de Educación.',
+      tipo: 'Página web',
       link: 'https://www.google.com/',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
+        'Unidad de producción de confección de prendas de vestir SENATI – IPACE. (2015). Guía del participante.',
+      tipo: 'Guía',
+      link: 'https://www.google.com/',
+    },
+    {
+      texto:
+        'Valencia de la M., L. (s.f.). Colección… Saber hacer… Ropa para hombre: Bóxer o calzoncillo.',
+      tipo: 'Cartilla -taller',
+      link: 'https://www.google.com/',
+    },
+    {
+      texto: 'Bóxer masculino.',
+      tipo: 'PDFd',
+      descarga: '/downloads/BOXER_MASCULINO.pdf',
+    },
+    {
+      texto: 'Dreamstime.com, 2000.Ropa Interior rosa.',
+      tipo: 'imagen',
+      link: 'https://www.google.com/',
+    },
+    {
+      texto: 'Gladys Quevedo,2013; Lencería y Corsetería.',
+      tipo: 'libro',
       descarga: '/downloads/prueba.pdf',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
+        'Sena, 2002; Materiales, insumos y maquinaria para la CONFECCIÓN DE ROPA INTERIOR.',
+      tipo: 'Documento',
       link: 'https://www.google.com/',
     },
     {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
+      texto: 'Stella Serrano,2008; Introducción a la corsetería.',
+      tipo: 'Sitio Web',
+      link: 'https://www.google.com/',
+    },
+    {
+      texto:
+        'Saguam,2016; Materiales, accesorios e implementos para la confección de ropa interior.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=5ISULcEorEM&ab_channel=SAGUAM',
+    },
+    {
+      texto:
+        'Cursos de lencería fina, 2019; Telas de algodón para .confeccionar Ropa Interior o Lencería.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=BnsNEYEy4wk&ab_channel=CursosDeLencer%C3%ADaFina',
+    },
+    {
+      texto: 'María Eunice Guzman.2017; Manual de Ropa Interior.',
+      tipo: 'Documento',
       descarga: '/downloads/prueba.pdf',
     },
     {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
+      texto: 'Mariel,2018; El taller de Mariette.',
+      tipo: 'Blog',
       link: 'https://www.google.com/',
+    },
+    {
+      texto: 'Next Retail Ltda,2020; Next.',
+      tipo: 'Sitio Web',
+      link: 'https://www.google.com/',
+    },
+    {
+      texto: 'Telas activas, 2019.Microfibra.',
+      tipo: 'Imagen',
+      link: 'https://www.google.com/',
+    },
+    {
+      texto: 'María Eleana García, 2018.El Baúl de la Costurera.',
+      tipo: 'Sitio Web',
+      link: 'https://www.google.com/',
+    },
+    {
+      texto:
+        'El taller de mariette,2017; Técnicas de elastizado para lencería.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=dYr-dlkmCDU&ab_channel=eltallerdemariette',
+    },
+    {
+      texto:
+        'Grachyy Castro,2016; Como coser el elástico a las prendas interiores.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=BapnjDRlzGM&ab_channel=grachyycastro',
+    },
+    {
+      texto: 'Karu,2020; Estudio Costura.',
+      tipo: 'Sitio Web',
+      link: 'https://www.google.com/',
+    },
+    {
+      texto: 'Aurora DG,2020; Hecho en 5 minutos.',
+      tipo: 'Sitio Web',
+      link: 'https://www.google.com/',
+    },
+    {
+      texto:
+        'Saguam,2016; Como forrar copa prehormada strapless para brasier, paso a paso.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=9JUdZnBo84E&ab_channel=SAGUAM',
+    },
+    {
+      texto: 'LENART Briones,2019; Cómo coser elástico de bóxer.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=XMokzOiOSfc&ab_channel=LENARTBriones',
+    },
+    {
+      texto: 'Gema Isabel Ramírez m,2016; Montar Elástico a Cintura 520373.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=oK1ZEzOnK9g&ab_channel=Confeccion',
+    },
+    {
+      texto: 'Confeccion,2014; Bombachas',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=Y3tyM2WTpZ0&ab_channel=ACADEMIACONFECCIONALAMODA',
+    },
+    {
+      texto: 'Lima com export,2012; Confección de Bóxer.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=mKVAgtsoQjA&ab_channel=LIMACONEXPORT',
+    },
+    {
+      texto: 'Inimar,2019; Tipos De Brassiers.',
+      tipo: 'Sitio Web',
+      link: 'https://www.google.com/',
+    },
+    {
+      texto: 'Patrones y Cofeccion,2020; Cómo hacer un corpiño armado.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=1yHyKgmgl_8&ab_channel=PatronesyConfecci%C3%B3n',
     },
   ],
   creditos: {
@@ -252,6 +454,33 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'María Luisa Yepes Sierra',
+        cargo: 'Instructora',
+        centro: 'Centro de diseño confección y moda - Regional Antioquia',
+      },
+      {
+        nombre: 'Marisol Osorio Beltrán',
+        cargo: 'Líder Sennova',
+        centro: 'Centro de diseño confección y moda - Regional Antioquia',
+      },
+      {
+        nombre: 'Jhon Fernando Jaramillo Taborda',
+        cargo: 'Investigador – Grupo de investigación INAMOD',
+        centro: 'Centro de diseño confección y moda - Regional Antioquia',
+      },
+      {
+        nombre: 'Liliana Victoria Morales Gualdrón',
+        cargo: 'Diseñador Instruccional',
+        centro:
+          'Centro para la comunicación de la Industria Gráfica - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Sandra Patricia Hoyos Sepúlveda',
+        cargo: 'Corrector de estilo',
+        centro:
+          'Centro para la comunicación de la Industria Gráfica - Regional Distrito Capital',
+      },
     ],
     desarrolloProducto: [
       {
@@ -266,20 +495,14 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: ['Anllelo Andres Reina Montañez'],
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Ricardo Alfonso González Vargas',
         cargo: 'Desarrollo Front-End',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },

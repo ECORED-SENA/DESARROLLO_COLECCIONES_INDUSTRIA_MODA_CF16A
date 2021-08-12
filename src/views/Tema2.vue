@@ -151,31 +151,29 @@
             p A continuación, se exponen algunas técnicas para forrar copas de brasier
 
 
-    .row.mb-5#MapaGroup01      
-      .col-lg-8
-        .jumbo_3.p-4
-          figure
-            img.img-a(src='@/assets/curso/tema_2/img_14.png', alt='Texto que describa la imagen')
-      .col-lg-4.jumbo_3
+    .row.mb-5.jumbo_3.p-4#MapaGroup01      
+      .col-lg-12
+        figure
+          img.img-a(src='@/assets/curso/tema_2/img_14.png', alt='Texto que describa la imagen')
+            
+      .col-lg-12
         
-
-          
         .row.mt-4
-          .col-lg-12
-            button.Buton_a.show.ClasePripiaBtn.collapsed.collapse(data-bs-toggle='collapse' data-bs-target='#collapse01' aria-expanded='true' aria-controls='#collapse01' @click="collapsableSeleccionado='collapse01'" :class="{'Boton_a__active': collapsableSeleccionado === 'collapse01'}") 
-              img.mt-3.img-a(src='@/assets/curso/tema_2/img_19.png', alt='')
+          .col-lg-4
+            button.Buton_a.show.ClasePripiaBtn.collapsed.collapse(data-bs-toggle='collapse' data-bs-target='#collapse01' aria-expanded='true' aria-controls='#collapse01' @click="collapsableSeleccionado='collapse01'" ) 
+              img.mt-3.mb-3.img-a(src='@/assets/curso/tema_2/img_19.png', alt='')
               h4.text-center(data-bs-parent='#MapaGroup01') Forrar copas en material bondeado
 
-        .row             
-          .col-lg-12
+                   
+          .col-lg-4
             button.Buton_a.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse02' aria-expanded='false' aria-controls='#collapse02' @click="collapsableSeleccionado='collapse02'" :class="{'Boton_a__active': collapsableSeleccionado === 'collapse02'}")
-              img.mt-3.img-a(src='@/assets/curso/tema_2/img_19.png', alt='')
+              img.mt-3.mb-3.img-a(src='@/assets/curso/tema_2/img_19.png', alt='')
               h4.text-center(data-bs-parent='#MapaGroup01')  Forrar copas prehormadas
             
-        .row
-          .col-lg-12
+        
+          .col-lg-4
             button.Buton_a.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse03' aria-expanded='false' aria-controls='#collapse03' @click="collapsableSeleccionado='collapse03'" :class="{'Boton_a__active': collapsableSeleccionado === 'collapse03'}")
-              img.mt-3.img-a(src='@/assets/curso/tema_2/img_19.png', alt='')
+              img.mt-3.mb-3.img-a(src='@/assets/curso/tema_2/img_19.png', alt='')
               h4.text-center(data-bs-parent='#MapaGroup01')  Forrar copas en encaje
                 
 
@@ -317,9 +315,4 @@ export default {
 }
 </script>
 
-<style lang="sass" scoped>
-.Boton_a__active
-  background-color: #BF3976 !important
-  content:url("../assets/curso/tema_2/img_13.png")
-  color: $white !important
-</style>
+<style lang="sass" scoped></style>

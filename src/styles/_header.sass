@@ -1,32 +1,54 @@
-.header-arrow
-  position: relative
-  background-color: #BF3976
-  padding: 2rem
-
-  h1,h2,h3 
-      margin: 0
-      color:white      
-  
-
-  &--xs 
-    padding: 0
-    height: 8px
-  
-
-
-
-.header-arrow::before 
-   content: ''
-    -webkit-transition: all .3s ease
-    transition: all .3s ease
-    border-style: solid
-    border-width: 25px 25px 0px 25px
-    border-color: #BF3976 transparent transparent transparent
-    position: absolute
-    left: 50%
-    transform: translateX(-50%)
-    bottom: -18px
-    margin-top: 0px 
-    z-index: 20
+.tabs-r
+  &__header
+    margin-bottom: 15px
+  &__tab
+    border-bottom: 4px solid $red
+    line-height: $heading-line-height
+    text-align: center
+    display: flex
+    align-items: center
+    justify-content: center
+    position: relative
+    &:after, &:before
+      content: ''
+      display: block
+      position: absolute
+      transform: translate(-50%,-50%)
+    &:after
+      width: 2px
+      height: 20px
+      top: 50%
+      right: -2px
+      background-color: $red
+    &:last-child
+      &:after
+        display: none
 
 
+    @media (min-width: $bp-min-lg) and (max-width: $bp-max-lg)
+      &:nth-child(3n)
+        &:after
+          display: none
+    @media (min-width: $bp-min-sm) and (max-width: $bp-max-md)
+      &:nth-child(2n)
+        &:after
+          display: none
+    @media (max-width: $bp-max-xs)
+      &:after
+        display: none
+
+    &--active
+      border-bottom: 4px solid $red !important
+      &:before
+        width: 0
+        height: 0
+        border-left: 10px solid transparent
+        border-right: 10px solid transparent
+        border-top: 10px solid $red
+        left: 50%
+        top: calc(100% + 6px)
+
+      &:active, &:focus, &:hover
+        background-color: transparent
+      .tabs-b__tab__title
+        font-weight: $base-bold-font-weight

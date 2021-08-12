@@ -38,6 +38,9 @@
 .jumbo_3
   background-color: #E9D0DB
 
+.jumbo_4
+  background-color: #339CE9
+
 .bg_white
   background-color: $white !important
 
@@ -65,13 +68,24 @@
 
 .tabs-b__tab
   background-color: #E9D0DB
+  &:hover 
+    background-color: #BF3976 !important
+    span
+      color: $white !important
+    img
+      content:url("../assets/curso/tema_2/img_13.png") !important
 
 .tabs-b__tab--active
   background-color: #BF3976
   color: $white
+  img
+    content:url("../assets/curso/tema_2/img_13.png") !important
 
 .tabs-b.color-acento-contenido .tabs-b__tab--active 
   border-top-color: #BF3976 !important
+  
+
+  
 
 .tarj-azul
   background-color: #BDDDF5
@@ -81,26 +95,52 @@
 
 
 .Buton_a
-  background-color: #DBB5C5 !important
-  color: $color-sistema-texto !important
+  background-color: #DBB5C5 
+  color: $color-sistema-texto 
 
-.Buton_a:hover
-  background-color: #BF3976 !important
+  &:hover 
+    background-color: #BF3976 !important
+    h4 
+      color: $white !important
+    img
+      content:url("../assets/curso/tema_2/img_13.png") !important
 
-.Buton_a:hover h4
-  color: $white !important
+  &:focus
+    background-color: #BF3976 !important
+    h4 
+      color: $white !important
+    img
+      content:url("../assets/curso/tema_2/img_13.png") !important
+        
+.Buton_r
+  background-color: #339CE9
+  color: $color-sistema-texto 
 
-.Buton_a:hover img
-  content:url("../assets/curso/tema_2/img_13.png")
-  color: $white !important
+  &:focus
+    background-color: #339CE9 !important
+    
 
-.Boton_a:active
-  background-color: #BF3976 !important
-  content:url("../assets/curso/tema_2/img_13.png")
-  color: $white !important
+.Buton_g
+  background-color: #BF3976
+  color: $color-sistema-texto 
+
+  &:focus
+    background-color: #BF3976 !important
+
+  &:hover 
+    background-color: #8F2B58 !important
+
+  
+  
+    
+    
+    
+  
 
 .ClasePripiaBtn
   width: 100%
+  
+
 
 .slide-fade-enter-active 
   transition: all .3s ease
@@ -114,5 +154,33 @@
 
 .tarjeta_img
   background-image: url("../assets/curso/tema_4/img_1.png")
+
+.tarjeta_img1
+  background-image: url("../assets/curso/tema_4/img_17.png")
+
+.slyder-a__bullets
+  bottom: 0px !important
+
+@media (min-width: 1200px)
+  .col-xl-3 
+    flex: 0 0 auto
+    width: 16%
+
+@media (min-width: 1200px)
+  .col-xl-9
+    flex: 0 0 auto
+    width: 82%
+
+.tabs-a.color-acento-contenido .tabs-a__tab__selected 
+  color: $white !important
+
+.bg_tab
+  background-color: #339CE9 !important
+
+
+
+
+
+
 
 

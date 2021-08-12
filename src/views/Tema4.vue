@@ -54,13 +54,26 @@
 
     p.mb-5 A continuación, se explica el paso a paso (operación) a seguir en la elaboración de los bóxeres clásico y ajustado.
 
-    .row.justify-content-center   
-      .col-lg-11
-        .jumbo_1.p-4
-          figure
-            img.img-a(src='@/assets/curso/tema_4/img_8.png', alt='Texto que describa la imagen')
-        TabsC.color-primario.mb-5
-          .py-3.py-md-4
+    .row.justify-content-center
+      .col-lg-4
+        h4.text-center Elaboración muestra física de Panty
+
+
+    .row.mb-5.p-4#MapaGroup_03 
+      .col-lg-6
+        button.Buton_g.show.ClasePripiaBtn.collapsed.collapse(data-bs-toggle='collapse' data-bs-target='#collapse05, #f5' aria-expanded='true' aria-controls='#collapse05' @click="collapsableSeleccionado='collapse05'" ) 
+          img.mt-3.mb-3.img-a(src='@/assets/curso/tema_4/img_70.png', alt='')
+          h4.text-center(data-bs-parent='#MapaGroup_03')  
+        img#f5.img-a.collapse.show(data-bs-parent='#MapaGroup_03')(src='@/assets/curso/tema_4/img_69.svg', alt='')
+      .col-lg-6
+        button.Buton_g.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse06, #f6' aria-expanded='false' aria-controls='#collapse06' @click="collapsableSeleccionado='collapse06'")
+          img.mt-3.mb-3.img-a(src='@/assets/curso/tema_4/img_71.png', alt='')
+          h4.text-center(data-bs-parent='#MapaGroup_03') 
+        img#f6.img-a.collapse(data-bs-parent='#MapaGroup_03')(src='@/assets/curso/tema_4/img_69.svg', alt='')
+
+      #collapse05.collapse.show(data-bs-parent='#MapaGroup_03')
+        .row.mt-5.justify-content-center
+          .col-lg-11
             .tarjeta.tarjeta--azul.p-4.mb-5
               LineaTiempoC.color-acento-botones
                 .row.justify-content-center(titulo="Tanga")
@@ -97,7 +110,10 @@
                                 a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/INFOGRAFIA_TANGA_PASO_A_PASO.pdf')" target="_blank")
                                   span Descargar
                                   i.fas.fa-file-download
-          .py-3.py-md-4
+
+      #collapse06.collapse(data-bs-parent='#MapaGroup_03')
+        .row.mt-5.justify-content-center
+          .col-lg-11
             .tarjeta.tarjeta--azul.p-4.mb-5
               LineaTiempoC.color-acento-botones
                 .row(titulo="Paso 1")
@@ -206,7 +222,7 @@
 
                 .row.justify-content-center(titulo="Paso 9")
                   .h4.text-center Paso 9. Limpiar y revisar prenda
-                  p Las operaciones de terminado están en la revisión final de la prenda iniciando por el revés retirando los hilos sobrantes, se voltea revisando el posterior desde la parte superior hacia la inferior. Esta se voltea al derecho y se revisa de nuevo desde la parte superior, pasando a los costados y luego hasta la entrepierna, quedando lista para doblado y empacado.
+                  p Las operaciones de terminado están en la revisión final de la prenda iniciando por el revés retirando los hilos sobrantes, se voltea revisando el posterior desde la parte superior hacia la inferior. Esta se voltea al derecho y se revisa de nuevo desde la parte superior, pasando a los costados y luego hasta la entrepierna, quedando lista para doblado y empacado.          
 
 
     separador
@@ -219,6 +235,565 @@
         .cajon.color-primario.p-4
           p El bóxer clásico es una de las prendas interiores más cómodas, éste cubre el área pélvica y se extiende sobre una parte del muslo. Su nombre deriva de la similitud que tiene esta prenda con los pantalones cortos utilizados por los boxeadores. Los bóxeres clásicos son holgados y confeccionados en textiles absorbentes de algodón, cuentan con una apertura sobre la bragueta. El bóxer ajustado es una de las variantes del clásico, pero este tiene elástico expuesto sobre la cintura y una bolsa que permite el ajuste de la parte genital.
 
+    .row.justify-content-center
+      .col-lg-3
+        p.BorTit1 #[strong Figura:] Costura plana.
+    .tarjeta.tarjeta_img1.p-4.mb-5
+      SlyderA
+        .row
+          figure
+            img(src='@/assets/curso/tema_4/img_18.png', alt='Texto que describa la imagen')
+        div
+          figure
+            img(src='@/assets/curso/tema_4/img_19.png', alt='Texto que describa la imagen')
+
+    p.mb-5 A continuación, se explica el paso a paso (operación) a seguir en la elaboración de los bóxeres clásico y ajustado.
+
+    .row.justify-content-center
+        .col-lg-4
+          h4.text-center Elaboración muestra física de Bóxer
+
+    .row.mb-5.p-4#MapaGroup01 
+      .col-lg-6
+        button.Buton_r.show.ClasePripiaBtn.collapsed.collapse(data-bs-toggle='collapse' data-bs-target='#collapse01, #f1' aria-expanded='true' aria-controls='#collapse01' @click="collapsableSeleccionado='collapse01'" ) 
+          img.mt-3.mb-3.img-a(src='@/assets/curso/tema_4/img_64.png', alt='')
+          h4.text-center(data-bs-parent='#MapaGroup01')  
+        img#f1.img-a.collapse.show(data-bs-parent='#MapaGroup01')(src='@/assets/curso/tema_4/img_66.svg', alt='')
+      .col-lg-6
+        button.Buton_r.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse02, #f2' aria-expanded='false' aria-controls='#collapse02' @click="collapsableSeleccionado='collapse02'")
+          img.mt-3.mb-3.img-a(src='@/assets/curso/tema_4/img_65.png', alt='')
+          h4.text-center(data-bs-parent='#MapaGroup01') 
+        img#f2.img-a.collapse(data-bs-parent='#MapaGroup01')(src='@/assets/curso/tema_4/img_66.svg', alt='')
+
+      #collapse01.collapse.show(data-bs-parent='#MapaGroup01')
+        .row.mt-5.justify-content-center
+          .col-lg-11
+            TabsA.color-acento-contenido.mb-5
+                .tarjeta.jumbo_3.p-5(titulo="Clasico")
+                  .row.mb-5
+                    .col-lg-8
+                      h4 Elaboración muestra física de Bóxer Clásico
+                      p Observe el video que se presenta a continuación en donde se muestra el proceso de elaboración de una muestra física. 
+                      p Descargue el PDF para conocer instrucciones detalladas sobre el paso a paso que le permitirá ampliar la información para la confección de esta prenda.
+                      p Descargue el documento en Excel que le servirá como guía base para la construcción de la ficha técnica de esta prenda (ejemplo)
+                    .col-lg-4
+                      figure
+                        img.img-a(src='@/assets/curso/tema_4/img_21.png', alt='Texto que describa la imagen')
+                  .row.mb-5
+                    .col-lg-4
+                      a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=3E8_mDzj8LU&ab_channel=RedProducci%C3%B3ndeContenidosGrupoGesti%C3%B3nCurricularSENA" target="_blank")
+                        .anexo__icono
+                          img(src="@/assets/template/icono-link.svg")
+                        .anexo__texto
+                          p #[strong Enlace web.] Vídeo: confección Bóxer clásico
+                    .col-lg-4
+                      a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                        .anexo__icono
+                          img(src="@/assets/template/icono-pdf.svg")
+                        .anexo__texto
+                          p #[strong Anexo.] Instructivo confección Bóxer
+                    .col-lg-4
+                      a.anexo(:href="obtenerLink('/downloads/CF16_A_4.2_Anexo_Ficha_tecnica_Boxer.xlsx')" target="_blank")
+                        .anexo__icono
+                          img(src="@/assets/template/icono-xml.svg")
+                        .anexo__texto
+                          p #[strong Anexo.] Ficha técnica confección Bóxer
+
+                  .row.justify-content-center
+                    .col-lg-12
+                      .tarjeta.color-primario.p-3.mb-3
+                        .row.justify-content-around.align-items-center
+                          .col-3.col-sm-2.col-lg-1
+                            img(src="@/assets/curso/tema_4/img_23.png")
+                          .col
+                            .row.justify-content-between.align-items-center
+                              .col.mb-3.mb-sm-0
+                                h3.mb-1 Elaboración muestra física de Bóxer Clásico
+                                p.text-small Infografía con los pasos para la elaboración de la muestra física. 
+                              .col-sm-auto
+                                a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/INFOGRAFIA_TANGA_PASO_A_PASO_boxer.pdf')" target="_blank")
+                                  span Descargar
+                                  i.fas.fa-file-download
+
+      #collapse02.collapse(data-bs-parent='#MapaGroup01')
+        .row.mt-5.justify-content-center
+          .col-lg-11
+            TabsA.color-acento-contenido.mb-5
+              .tarjeta.jumbo_3.p-5(titulo="Ajustado")
+                .h5.mb-5 Elaboración muestra física de Panty Ajustado
+                .row
+                  .col-lg-8
+                    .cajon.color-acento-contenido.p-4.mb-3 
+                      .row
+                        .col-lg-8
+                          p Para este ejercicio cada paso corresponde a una operación que se debe realizar dentro del proceso. Empecemos…
+                    
+                        .col-lg-4
+                          figure
+                            img.img-a(src='@/assets/curso/tema_2/img_5.svg', alt='Texto que describa la imagen')
+
+                  .col-lg-4
+                    figure
+                      img.img-a(src='@/assets/curso/tema_4/img_22.png', alt='Texto que describa la imagen')
+
+              .tarjeta.jumbo_3.p-4(titulo="PASO 1")
+                h5.mb-5 Paso 1. Identificación de piezas
+                .row
+                  .col-lg-8
+                    p Para el alistamiento de la confección del Bóxer se necesita tener las piezas dispuestas para ello como son: 
+
+                    ul.lista-ul--color.lista-ul.mb-5
+                      li 
+                        i.fas.fa-check
+                        | Delanteros
+                      li 
+                        i.fas.fa-check
+                        | Posteriores
+                      li 
+                        i.fas.fa-check
+                        | Canguro y
+                      li 
+                        i.fas.fa-check
+                        | Entrepierna.
+
+                    .cajon.color-acento-contenido.p-4
+                      p Además del paquete técnico compuesto por la ficha técnica, la muestra física todas las herramientas y elementos necesarios, los insumos como son los hilos, el elástico y la marquilla.
+                  .col-lg-4
+                    .row.justify-content-center
+                      .col-lg-10
+                        p.BorTit1 #[strong Figura:] Partes del Bóxer.
+                    figure
+                      img.img-a(src='@/assets/curso/tema_4/img_24.png', alt='Texto que describa la imagen')
+              .tarjeta.jumbo_3.p-4(titulo="PASO 2")
+                h5.mb-5 Paso 2. Cerrar elástico
+                .row
+                  .col-lg-8
+                    p.mb-0 El elástico se mide de acuerdo a la talla en centímetros se corta y se procede a unirlo en maquina plana a 1 cm montando uno encima del otro, rematando muy bien. 
+                    p Ya terminada la costura se dobla el elástico en 4 partes y se marca muy bien por dentro y por fuera de este para facilitar el pegado al bóxer. 
+
+                    p Se revisa de nuevo que queden muy bien las costuras, remates y marcación.
+                  .col-lg-4
+                    .row.justify-content-center
+                      .col-lg-10
+                        p.BorTit1 #[strong Figura:] Cerrar elástico.
+                    figure
+                      img.img-a(src='@/assets/curso/tema_4/img_25.png', alt='Texto que describa la imagen')
+              .tarjeta.jumbo_3.p-4(titulo="PASO 3")
+                h5.mb-5 Paso 3. Operaciones de preparación unir posteriores
+                .row
+                  .col-lg-8
+                    p Se inicia con las operaciones de preparación fileteando los posteriores con filete sencillo pegando la marquilla de la talla, esta debe quedar a 12 cm de la cintura. 
+
+                    p Se revisa que queden muy bien las costuras, remates. 
+                  .col-lg-4
+                    .row.justify-content-center
+                      .col-lg-10
+                        p.BorTit1 #[strong Figura:] #[i Unión posterior.]
+                    figure
+                      img.img-a(src='@/assets/curso/tema_4/img_26.png', alt='Texto que describa la imagen')
+              .tarjeta.jumbo_3.p-4(titulo="PASO 4")
+                h5.mb-5 Paso 4. Preparar panel delantero (canguro)
+                .row
+                  .col-lg-8
+                    p Unir las partes del panel delantero en fileteadora encarando los derechos y uniendo las 4 telas para filetearlos con flete sencillo, luego asentar costura en recubridora con 5 hilos.
+                  .col-lg-4
+                    .row.justify-content-center
+                      .col-lg-10
+                        p.BorTit1 #[strong Figura:] #[i Panel delantero.]
+                    figure
+                      img.img-a(src='@/assets/curso/tema_4/img_27.png', alt='Texto que describa la imagen')
+              .tarjeta.jumbo_3.p-4(titulo="PASO 5")
+                h5.mb-5 Paso 5. Unir entrepierna a posterior
+                .row
+                  .col-lg-8
+                    p La entrepierna se une al posterior con filete sencillo siguiendo la curva del tiro, sin dejar pestaña ni arrugas en él.
+                  .col-lg-4
+                    .row.justify-content-center
+                      .col-lg-10
+                        p.BorTit1 #[strong Figura:] #[i Entrepierna posterior.]
+                    figure
+                      img.img-a(src='@/assets/curso/tema_4/img_27.png', alt='Texto que describa la imagen')
+              .tarjeta.jumbo_3.p-4(titulo="PASO 6")
+                h5.mb-5 Paso 6. Unir entrepierna a delantero 
+                .row
+                  .col-lg-8
+                    p La otra parte de la entrepierna se une al delantero con filete sencillo y luego se asienta costura en recubridora con 5 hilos.
+                  .col-lg-4
+                    .row.justify-content-center
+                      .col-lg-10
+                        p.BorTit1 #[strong Figura:] #[i Entrepierna delantera.]
+                    figure
+                      img.img-a(src='@/assets/curso/tema_4/img_29.png', alt='Texto que describa la imagen')
+              .tarjeta.jumbo_3.p-4(titulo="PASO 7")
+                h5.mb-5 Paso 7. Unir panel a cuerpo 
+                .row
+                  .col-lg-8
+                    p Ya teniendo preparadas las entrepiernas se procede a unir el panel al delantero teniendo cuidado de que este quede centrado y no sobre material en ninguno de los dos lados. 
+
+                    p Luego en recubridora se asienta costura con 5 hilos.
+                  .col-lg-4
+                    .row.justify-content-center
+                      .col-lg-10
+                        p.BorTit1 #[strong Figura:] #[i Entrepierna delantera.]
+                    figure
+                      img.img-a(src='@/assets/curso/tema_4/img_30.png', alt='Texto que describa la imagen')
+              .tarjeta.jumbo_3.p-4(titulo="PASO 8")
+                h5.mb-5 Paso 8. Pegar elástico en cintura
+                .row
+                  .col-lg-8
+                    p El elástico, previamente preparado se une a la cintura en máquina recubridora, con la técnica de elástico apoyado iniciando desde el posterior colocando la tela por debajo y el elástico encima, coincidiendo las costuras del elástico y del posterior para iniciar. 
+
+                    p.mb-0 Se debe alinear el orillo de la tela con el elástico y que coincidan las 4 marcaciones con las costuras de costados.
+                    p En la última parte se debe cuidar que, al estirar esté todo parejo, y al final del empate se saca la prenda. 
+
+                    p Revisar costuras con parámetros de calidad.
+                  .col-lg-4
+                    .row.justify-content-center
+                      .col-lg-10
+                        p.BorTit1 #[strong Figura:] #[i Panel delantero.]
+                    figure
+                      img.img-a(src='@/assets/curso/tema_4/img_31.png', alt='Texto que describa la imagen')
+
+              .tarjeta.jumbo_3.p-4(titulo="PASO 9")
+                h5.mb-5 Paso 9. Dobladillar bota
+                .row
+                  .col-lg-8
+                    p En la bota se dobla a 1 cm hacia el revés y alineando la costura tomándola hacia el posterior posicionando bajo el pie prensa tela de la recubridora. 
+
+                    p Inicie la costura ayudándose con la guía dobladilladora para garantizar que la costura queda pareja (que la guía lo oriente). 
+
+                    p En la parte del embone se debe tener cuidado para que no se  voltee y al finalizar se realiza el empate de la costura de 2 o 3 cm máximo.
+
+                    p Se saca la pieza y se procede a revisar con parámetros de calidad.
+                  .col-lg-4
+                    .row.justify-content-center
+                      .col-lg-10
+                        p.BorTit1 #[strong Figura:] #[i Panel delantero.]
+                    figure
+                      img.img-a(src='@/assets/curso/tema_4/img_31.png', alt='Texto que describa la imagen')
+
+              .tarjeta.jumbo_3.p-4(titulo="PASO 10")
+                h5.mb-5 Paso 10. Limpiar y revisar prenda
+                p Las operaciones de terminado están en la revisión final de la prenda iniciando por el revés retirando los hilos sobrantes, se voltea revisando el posterior desde la parte superior hacia la inferior. 
+
+                p La prenda se voltea al derecho y se revisa de nuevo desde la parte superior, pasando a los costados y luego hasta la entrepierna, quedando lista para vaporizado, doblado, y empacado.
+
+    separador
+
+    .titulo-segundo
+      #t_4_3.h2 4.3  Elaboración muestras físicas de Panty
+
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .cajon.color-primario.p-4
+          p.mb-5 El brasier también llamado sostén es una de las prendas íntimas que ha tenido una evolución muy marcada y reconocida en cuanto a moda y a la visión del cuerpo femenino. Este añade soporte y hace que el cuerpo luzca equilibrado; gracias a la variedad de materiales utilizados en su confección, es una prenda íntima, elegante y refinada o liviana y suave adaptándose a su ocasión y necesidad de uso.
+
+          figure
+            img.img-a(src='@/assets/curso/tema_4/img_32.png', alt='Texto que describa la imagen')
+
+    .row.justify-content-center
+      .col-lg-4
+        h4.text-center Elaboración muestra física de Brasier
+
+    
+    .row.p-4#MapaGroup_02 
+      .col-lg-6
+        button.Buton_g.show.ClasePripiaBtn.collapsed.collapse(data-bs-toggle='collapse' data-bs-target='#collapse03, #f3' aria-expanded='true' aria-controls='#collapse03' @click="collapsableSeleccionado='collapse03'" ) 
+          img.mt-3.mb-3.img-a(src='@/assets/curso/tema_4/img_67.png', alt='')
+          h4.text-center(data-bs-parent='#MapaGroup_02')  
+        img#f3.img-a.collapse.show(data-bs-parent='#MapaGroup_02')(src='@/assets/curso/tema_4/img_69.svg', alt='')
+      .col-lg-6
+        button.Buton_g.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse04, #f4' aria-expanded='false' aria-controls='#collapse04' @click="collapsableSeleccionado='collapse04'")
+          img.mt-3.mb-3.img-a(src='@/assets/curso/tema_4/img_68.png', alt='')
+          h4.text-center(data-bs-parent='#MapaGroup_02') 
+        img#f4.img-a.collapse(data-bs-parent='#MapaGroup_02')(src='@/assets/curso/tema_4/img_69.svg', alt='')
+
+      #collapse03.collapse.show(data-bs-parent='#MapaGroup_02')
+        .row.mt-5.justify-content-center
+          .col-lg-11
+            .tarjeta.tarjeta--azul.p-4.mb-5
+              LineaTiempoC.color-acento-botones
+                .row.justify-content-center(titulo="Paso 1")
+                  .col-md-6.mb-md-0
+                    .cajon.color-acento-contenido.p-4.mb-5
+                      .row
+                        .col-lg-8
+                          p Para este ejercicio cada paso corresponde a una operación que se debe realizar dentro del proceso. Empecemos…
+                        .col-lg-4
+                          figure
+                            img.img-a(src='@/assets/curso/tema_2/img_5.svg', alt='Texto que describa la imagen')
+
+                    .h4.text-center Paso 1. Identificación de piezas
+
+                    p Para el alistamiento de la confección del brasier se necesita tener las piezas dispuestas para ello como son: 
+                    ul.lista-ul--color.lista-ul
+                      li 
+                        i.fas.fa-check
+                        | Copas
+                      li 
+                        i.fas.fa-check
+                        | Base
+                      li 
+                        i.fas.fa-check
+                        | Espalda
+                      li 
+                        i.fas.fa-check
+                        | Centro
+                    .cajon.color-primario.p-4
+                      p Además del paquete técnico compuesto por la ficha técnica, la muestra física todas las herramientas y elementos necesarios, los insumos como son los hilos, el elástico, sesgos y la marquilla.
+                  .col-md-6
+                    p.mb-5.BorTit1 #[strong Figura.] Piezas para brasier
+                    figure
+                      img.img-a(src='@/assets/curso/tema_4/img_34.png', alt='Texto que describa la imagen')
+                .row.justify-content-center(titulo="Paso 2")
+                  .col-md-6.mb-md-0
+                    .h4.text-center Paso 2. Operaciones de preparación armar centro 
+                    p Unir el centro de la base en maquina plana derecho con derecho.
+                    p Voltear la pieza y pespuntar de nuevo a 1/16 en el mismo lugar
+                  .col-md-6
+                    .row.justify-content-center
+                      .col-lg-6
+                        p.BorTit1 #[strong Figura.] Corpiño con arco
+                    figure
+                      img.img-a(src='@/assets/curso/tema_4/img_35.png', alt='Texto que describa la imagen')
+                .row.justify-content-center(titulo="Paso 3")
+                  .col-md-6.mb-md-0
+                    .h4.text-center Paso 3. Pegar centro a espalda 
+                    p Se une el centro con la espalda derecha e izquierda con costura recta y se asienta recargando esta hacia las espaldas con maquina zigzag. 
+                    .cajon.color-primario.p-4
+                      p Si el tejido es muy elástico al momento de hacer la operación de zigzag se puede añadir sesgo cristal para mayor refuerzo.
+                  .col-md-6
+                    .row.justify-content-center
+                      .col-lg-6
+                        p.BorTit1 #[strong Figura.] Corpiño con arco 
+                    figure
+                      img.img-a(src='@/assets/curso/tema_4/img_36.png', alt='Texto que describa la imagen')
+                .row.justify-content-center(titulo="Paso 4")
+                  .col-md-6.mb-md-0
+                    .h4.text-center Paso 4. Pegar elástico a base
+                    p Pegar elástico en la base utilizando la técnica de elastizado embutido o girado en maquina zigzag sencillo o de 3 pasos.
+
+                    p Opción 1. En el girado se pega el elástico de la base y luego se gira quedando la mora de este al borde y asentando costura con la misma máquina.
+
+                    p Opción 2. En el embutido el elástico es sencillo y se pega de igual forma solo que esta vez la base cubre el elástico.
+                  .col-md-6
+                    figure
+                      img.img-a(src='@/assets/curso/tema_4/img_37.png', alt='Texto que describa la imagen')
+                .row.justify-content-center(titulo="Paso 5")
+                  .col-md-6.mb-md-0
+                    .h4.text-center Paso 5. Armar copas
+                    p Para esta operación se unen las copas en maquin, con puntada en zigzag uniendo las copas al beso, sin montarlas en el área donde la costura debe tomar las dos copas.
+
+                    p Luego de terminado se pegará sesgo cristal sobre este para reforzar la unión.
+                  .col-md-6
+                    figure
+                      img.img-a(src='@/assets/curso/tema_4/img_38.png', alt='Texto que describa la imagen')
+                .row.justify-content-center(titulo="Paso 6")
+                  .col-md-6.mb-md-0
+                    .h4.text-center Paso 6. Armar copas de encaje y forrar copas
+                    p Se unen las copas de encaje en maquina con puntada en zigzag, uniendo las copas al beso sin montarlas donde la costura debe tomar las dos copas, luego de terminado encima de este se pegará.
+                    figure
+                      img.img-a(src='@/assets/curso/tema_4/img_39.png', alt='Texto que describa la imagen')
+
+                  .col-md-6
+                    .row.justify-content-center
+                      .col-lg-6
+                        p.mb-5.BorTit1 #[strong Figura.] Como forrar copas
+                    figure.mb-3
+                      img.img-a(src='@/assets/curso/tema_4/img_40.png', alt='Texto que describa la imagen')
+                    p Luego estas se pegarán a las copas de guata previamente preparadas forrándolas con costura en maquina plana alrededor sin estirar el material para que la copa no pierda su forma.
+                .row.justify-content-center(titulo="Paso 7")
+                  .col-md-6.mb-md-0
+                    .h4.text-center Paso 7. Pegar copas a base
+                    p Ya con las copas preparadas, unir estas a la base en maquina plana del centro al costado y la otra copa del costado al centro pasando por encima del elástico de la base cuidando de que no queden sobrantes.
+                  .col-md-6
+                    figure
+                      img.img-a(src='@/assets/curso/tema_4/img_41.png', alt='Texto que describa la imagen')
+                .row.justify-content-center(titulo="Paso 8")
+                  .col-md-12.mb-md-0
+                    .h4.text-center Paso 8. Pegar elástico a sisas
+                    p.mb-5 Una vez las copas están unidas a la base se procede a pegar elástico en sisa utilizando una de las técnicas para ello, con girado o sesgado.
+                    figure
+                      img.img-a(src='@/assets/curso/tema_4/img_42.png', alt='Texto que describa la imagen')
+                .row.justify-content-center(titulo="Paso 9")
+                  .col-md-12.mb-md-0
+                    .h4.text-center Paso 9. Pegar sesgo de varilla
+                    p Alrededor de la copa y con maquina plana 2 agujas con guía y aditamento se procede a pegar el sesgo cubre varilla entre la copa y la base por le centro de la costura uniendo las dos partes. 
+                    p.mb-5 En la costura se debe tener cuidado de no cerrar la abertura por donde pasará la varilla.
+                    figure
+                      img.img-a(src='@/assets/curso/tema_4/img_43.png', alt='Texto que describa la imagen')
+                .row.justify-content-center(titulo="Paso 10")
+                  .col-md-12.mb-md-0
+                    .h4.text-center Paso 10. Introducir la varilla
+                    p.mb-5 En el medio del sesgo de varilla y con mucho cuidado se debe introducir la varilla dando forma a la copa; también se debe tener en cuenta el color de las puntas de tal manera que se posicionen hacia donde van las sisas de las mismas.
+                    figure
+                      img.img-a(src='@/assets/curso/tema_4/img_44.png', alt='Texto que describa la imagen')
+                .row.justify-content-center(titulo="Paso 11")
+                  .col-md-12.mb-md-0
+                    .h4.mb-3.text-center Paso 11. Pegar macho y hembra a la base
+                    figure.mb-5
+                      img.img-a(src='@/assets/curso/tema_4/img_44.png', alt='Texto que describa la imagen')
+                    p.mb-5 En los extremos de la base se procede a pegar el broche, este consta de dos partes (macho y hembra). La medida debe coincidir con el espacio tubular de estos (A-B) y se fijan con maquina zigag.
+                    figure
+                      img.img-a(src='@/assets/curso/tema_4/img_46.png', alt='Texto que describa la imagen')
+                .row.justify-content-center(titulo="Paso 12")
+                  .row.justify-content-center.mb-5
+                    .col-md-4.mb-md-0
+                      figure
+                        img.img-a(src='@/assets/curso/tema_4/img_47.png', alt='Texto que describa la imagen')
+                    .col-md-6.mb-md-0
+                      .cajon.color-primario.p-4
+                        p.mb-0 El armado se realiza en un extremo introduciendo el aro y en el otro la corredera u 8.
+                        p Al extremo de este ultimo se voltea en cerrando la corredera y se fija con puntada de zigzag tupido.
+                  .row.justify-content-center.mb-5
+                    .col-md-4.mb-md-0
+                      figure
+                        img.img-a(src='@/assets/curso/tema_4/img_48.png', alt='Texto que describa la imagen')
+                    .col-md-6.mb-md-0
+                      .cajon.color-primario.p-4
+                        p.mb-0 Luego por el extremo de la arandela u aro se desliza otra vez por el tensor o corredera quedando el elástico doble dentro de ella como se ve en la figura.
+                  .row.justify-content-center.mb-5
+                    .col-md-4.mb-md-0
+                      figure
+                        img.img-a(src='@/assets/curso/tema_4/img_49.png', alt='Texto que describa la imagen')
+                    .col-md-6.mb-md-0
+                      .cajon.color-primario.p-4
+                        p.mb-0 El extremo libre del bretel se une a la base en la espalda a una distancia de 4 cm del gancho y el otro extremo ira a la copa también con zigzag tupido.
+                  .row.justify-content-center.mb-5
+                    .col-md-4.mb-md-0
+                      figure
+                        img.img-a(src='@/assets/curso/tema_4/img_50.png', alt='Texto que describa la imagen')
+                    .col-md-6.mb-md-0
+                      .cajon.color-primario.p-4
+                        p.mb-0 Si el material con el que está construida la base es liviano el bretel ira pegado desde el inicio de la base con atraques en zigzag en ambos lados de la espalda e igualmente en la copa cuidando de que no que entorchado. 
+                  .row.justify-content-center.mb-5
+                    .col-md-4.mb-md-0
+                      figure
+                        img.img-a(src='@/assets/curso/tema_4/img_51.png', alt='Texto que describa la imagen')
+                    .col-md-6.mb-md-0
+                      .cajon.color-primario.p-4
+                        p.mb-0 Si en los extremos del bretel lleva gancho se harán dos arandelas con elásticos de 3 cm cada uno y se pegarán a la copa y a la espalda con zigzag tupido sirviendo como soporte al gancho.
+                .row.justify-content-center(titulo="Paso 13")
+                  .col-md-6.mb-md-0    
+                    .h4.mb-3.text-center Paso 13. Pegado de adorno
+                    p En el centro del brasier se pega un adorno (moño) con zigzag tupido.
+                .row.justify-content-center(titulo="Paso 14")
+                  .col-md-10.mb-md-0    
+                    .h4.mb-3.text-center Paso 14. Operaciones de terminación
+                    p Las operaciones de terminado están en la revisión final de la prenda iniciando por el revés retirando los hilos sobrantes, se voltea revisando el posterior desde la parte superior hacia la inferior. 
+
+                    p Luego se voltea la prenda al derecho y se revisa de nuevo desde la parte superior, pasando a las sisas y luego hasta los ganchos, quedando lista para doblado, y empacado.
+
+      #collapse04.collapse(data-bs-parent='#MapaGroup_02')
+        .row.mt-5.justify-content-center
+          .col-lg-11
+            .tarjeta.tarjeta--azul.p-4.mb-5
+              LineaTiempoC.color-acento-botones
+                .row.justify-content-center(titulo="Paso 1")
+                  .col-md-7.mb-md-0.mb-5
+                    .cajon.color-acento-contenido.p-4.mb-5
+                      .row
+                        .col-lg-8
+                          p Para este ejercicio cada paso corresponde a una operación que se debe realizar dentro del proceso. Empecemos…
+                        .col-lg-4
+                          figure
+                            img.img-a(src='@/assets/curso/tema_2/img_5.svg', alt='Texto que describa la imagen')
+
+                  .row.justify-content-center.mb-5
+                    .col-lg-11
+                      .h4 Paso 1. Identificación de piezas
+                      p Para el alistamiento de la confección del bralette se necesita tener las piezas dispuestas para ello como son: 
+                      ul.lista-ul--color.lista-ul
+                        li 
+                          i.fas.fa-check
+                          | Copas de encaje
+                        li 
+                          i.fas.fa-check
+                          | Espalda
+                        li 
+                          i.fas.fa-check
+                          | Centro
+                      p Además del paquete técnico compuesto por la ficha técnica, la muestra física y todas las herramientas y elementos necesarios para su elaboración; como es el caso de los insumos que son: los hilos e hilazas, elástico grueso de 25 mm, tiras para brasier, elástico fantasía de 5 mm, tensores del mismo ancho de la cargadera, sesgo y la marquilla.
+
+                  .row.justify-content-center
+                    .col-lg-4.mb-mb-4
+                      figure
+                        img.img-a(src='@/assets/curso/tema_4/img_52.png', alt='Texto que describa la imagen')
+                    .col-lg-4.mb-mb-4
+                      figure
+                        img.img-a(src='@/assets/curso/tema_4/img_53.png', alt='Texto que describa la imagen')
+                .row.justify-content-center(titulo="Paso 2")
+                  .h4.mb-5 Paso 2. Armar copas de encaje y forrar copas
+                  figure.mb-5
+                    img.img-a(src='@/assets/curso/tema_4/img_54.png', alt='Texto que describa la imagen')
+                  p Se unen las copas de encaje en máquina a 5 mm del borde conservando la forma curva de este; rematando muy bien al inicio y al final, luego de terminado encima se puede pegar sesgo tapa costura para reforzar la unión.
+                .row.justify-content-center(titulo="Paso 3")
+                  .h4.mb-5 Paso 3. Pegar elástico a sisas
+                  figure.mb-5
+                    img.img-a(src='@/assets/curso/tema_4/img_55.png', alt='Texto que describa la imagen')
+                  p Una vez las copas están unidas se procede a pegar elástico de 5mm en sisa y centro por el revés de estas en máquina plana o recubridora; con puntada en zigzag; utilizando la técnica de “elástico apoyado”, respetando la mora del encaje.
+                .row.justify-content-center(titulo="Paso 4")
+                  .h4.mb-5 Paso 4. Pegar cargadera a copas de encaje 
+                  figure.mb-5
+                    img.img-a(src='@/assets/curso/tema_4/img_56.png', alt='Texto que describa la imagen')
+                  p Desde la parte inferior de la copa hasta la punta del encaje, se fijará el elástico de cargadera en posición centrada, por el revés en maquina plana a 1/16 de margen por ambos bordes para sujetarla.
+                .row.justify-content-center(titulo="Paso 5")
+                  .h4.mb-5 Paso 5. Armado del bretel o cargaderas
+                  figure.mb-5
+                    img.img-a(src='@/assets/curso/tema_4/img_57.png', alt='Texto que describa la imagen')
+                  p El armado se realiza en un extremo libre introduciendo la corredera o tensor.  
+                  p Luego extremo se introduce otra vez el mismo extremo por la corredera, quedando el elástico doble dentro de ella como se ve en la figura. Y se pasa de nuevo justo como la primera vez, sujetando el extremo con remate en zigzag tupido.
+                .row.justify-content-center(titulo="Paso 6")
+                  .h4.mb-5 Paso 6. Pegar elástico a base
+                  figure.mb-5
+                    img.img-a(src='@/assets/curso/tema_4/img_58.png', alt='Texto que describa la imagen')
+                  p Pegar el elástico en la base de las copas utilizando la técnica de “elastico apoyado” en maquina plana o recubridora. 
+                  p Se ubica el derecho del Bralette sobre el derecho del elástico y se une a 5 mm del borde, según la medida de contorno con margen de 1/16 se asienta. 
+                .row.justify-content-center(titulo="Paso 7")
+                  .h4.mb-5 Paso 7. Pegar segundo elástico 
+                  figure.mb-5
+                    img.img-a(src='@/assets/curso/tema_4/img_59.png', alt='Texto que describa la imagen')
+                  p Ya con el primer elástico de base listo, unir a 4 cm desde el borde superior hacia arriba, para ubicar el segundo elástico, este debe ir marcado en el centro para mejor ubicación y se une con puntada zigzag simple a los elásticos de sisas y centro y a la cargadera.
+                .row.justify-content-center(titulo="Paso 8")
+                  .h4.mb-5 Paso 8. Pegar macho y hembra a la base en los elásticos
+                  .row
+                    .col-lg-8
+                      p En los extremos de la base se procede a pegar el broche, este consta de dos partes, macho y hembra, la medida debe coincidir con el espacio tubular y se fijan con maquina en puntada zigzag; sin embargo, como la base es elástica simplemente se puede hacer una costura de fijación con el mismo zigzag simple tupido y cerrar completamente la base.
+
+                    .col-lg-4
+                      figure
+                        img.img-a(src='@/assets/curso/tema_4/img_60.png', alt='Texto que describa la imagen')
+
+                .row.justify-content-center(titulo="Paso 9")
+                  .h4.mb-5 Paso 9. Marcar cargaderas a base
+                  .row
+                    .col-lg-4
+                      figure
+                        img.img-a(src='@/assets/curso/tema_4/img_61.png', alt='Texto que describa la imagen')
+                    .col-lg-8
+                      p El parte posterior de la base se procede a marcar lo que será la unión de las cargaderas a 5 cm del final del broche o de la unión a cada lado.
+                .row.justify-content-center(titulo="Paso 10")
+                  .h4.mb-5 Paso 10. Pegado de adorno
+                  figure.mb-5
+                    img.img-a(src='@/assets/curso/tema_4/img_62.png', alt='Texto que describa la imagen')
+                  p Cortar 2 tiras de cargadera de 7 cm de largo cada una e introducirlas por las correderas o tensores, en uno de los extremos se dobla y se fija con zigzag simple tupido. 
+                  p Después estos  se fijaran primero  en el elástico superior con maquina plana rematando bien, y en el elástico inferior de la base con zigzag simple tupido se cortan los sobrantes para dar un mejor acabado.
+                .row.justify-content-center(titulo="Paso 11")
+                  .h4.mb-5 Paso 11. Operaciones de terminación
+                  .row
+                    .col-lg-8
+                      p Las operaciones de terminado están en la revisión final de la prenda iniciando por el revés retirando los hilos sobrantes, se voltea revisando el posterior desde la parte superior hacia la inferior. 
+                      p Luego se voltea al derecho y se revisa de nuevo desde la parte superior, pasando a las sisas y luego hasta la base, quedando lista para doblado, y empacado.
+                    .col-lg-4
+                      figure
+                        img.img-a(src='@/assets/curso/tema_4/img_63.png', alt='Texto que describa la imagen')            
+                    
+    p Para profundizar en estos temas y observar diferentes tutoriales que podrán ilustrar el proceso, le recomendamos revisar el material complementario de este componente formativo.
+
+                
+
+
+              
 </template>
 
 <script>
