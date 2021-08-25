@@ -10,14 +10,14 @@
 
     .bloque-texto-b.color-secundario.p-2.mb-5
       .bloque-texto-b__texto.mb-2
-        p La forma de pegar los elásticos a las prendas de ropa interior depende de factores como el acabado, el recogido, o el cubrimiento de este. Las técnicas para hacerlo usualmente se dividen en cuatro (4) y se pueden realizar tanto en una máquina familiar como en máquinas industriales (zigzag sencillo, zigzag triple, recubridora fileteadora) utilizando guías aéreas y folders como ayuda para que el acabado y apariencia quede mejor logrando su cometido. Algunas de estas técnicas se hacen en un solo paso y otras en dos pasos. 
+        p La forma de pegar los elásticos a las prendas de ropa interior depende de factores como el acabado, el recogido, o el cubrimiento de este. Las técnicas para hacerlo usualmente se dividen en cuatro (4) y se pueden realizar tanto en una máquina familiar como en máquinas industriales (zigzag sencillo, zigzag triple, recubridora, fileteadora) utilizando guías aéreas y folders como ayuda para que el acabado y apariencia quede mejor logrando su cometido. Algunas de estas técnicas se hacen en un solo paso y otras en dos pasos. 
 
     .row.justify-content-center.mb-5
       .col-lg-8
         .cajon.color-acento-contenido.p-4.mb-3 
           .row.align-items-center
             .col-lg-5
-              p.BorTit1 Figura: Costura plana
+              p.BorTit1 #[strong Figura:] Costura plana
               figure
                 img.img-a(src='@/assets/curso/tema_3/img_1.png', alt='Texto que describa la imagen')
             .col-lg-7
@@ -38,7 +38,7 @@
               .row
                 .col-md-7.mb-4.mb-md-0
                   h5 Elástico girado
-                  p En esta técnica se utiliza elástico picot en el cual tiene dos bordes uno liso y el otro con moras, ondas o picos, y algunos de ellos adornado con hilos Lurex que le dan un acabado brillante. 
+                  p En esta técnica se utiliza elástico #[i picot] en el cual tiene dos bordes uno liso y el otro con moras, ondas o picos, y algunos de ellos adornado con hilos Lurex que le dan un acabado brillante. 
                   p Se realizan dos pasos: 
 
                   ol.lista-ol--cuadro
@@ -67,7 +67,7 @@
               .row
                 .col-md-7
                   h5 Elástico para envivar o sesgar
-                  p Esta técnica se realiza con un elástico de 1,4 cm y posee un canal en el medio que permite el doblado haciendo las veces de sesgo, con la diferencia de que ese es elastizado, esto se produce por la falta de un hilo en toda la parte media lo que permite su fácil doblado envolviendo el material a ambos lados dando un acabado de calidad. Este va en maquina zigzag o en recubridora a dos agujas con folder y base guía en L.
+                  p Esta técnica se realiza con un elástico de 1,4 cm y posee un canal en el medio que permite el doblado haciendo las veces de sesgo, con la diferencia de que ese es elastizado, esto se produce por la falta de un hilo en toda la parte media lo que permite su fácil doblado envolviendo el material a ambos lados dando un acabado de calidad. Este va en máquina zigzag o en recubridora a dos agujas con folder y base guía en L.
                 .col-md-5.mb-4.mb-md-0
                   .row
                     .col-lg-2
@@ -100,7 +100,7 @@
                       figure.mb-5
                         img.img-a(src='@/assets/curso/tema_3/img_4.png', alt='Texto que describa la imagen')
                     .col-lg-10
-                      p El segundo paso se asienta en recubridora o maquina resortadora.
+                      p El segundo paso se asienta en recubridora o máquina resortadora.
                   figure.mb-3
                     img.img-a(src='@/assets/curso/tema_3/img_8.png', alt='Texto que describa la imagen')
                   figure
@@ -110,8 +110,8 @@
               .row
                 .col-md-7
                   h5 Elástico apoyado o expuesto
-                  p.mb-0 Para esta técnica el elástico se fija a la prenda en el borde de esta con recubridora para Bóxer o en zigzag triple para pantys. 
-                  p El elástico queda en el derecho unido al borde del tela y al igual que en la técnica de envivar o sesgar.
+                  p.mb-0 Para esta técnica el elástico se fija a la prenda en el borde de esta con recubridora para bóxer o en zigzag triple para pantys. 
+                  p El elástico queda en el derecho unido al borde de la tela y al igual que en la técnica de envivar o sesgar.
                 .col-md-5.mb-4.mb-md-0
                   .row
                     .col-lg-2
