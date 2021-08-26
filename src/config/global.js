@@ -285,45 +285,56 @@ export default {
       texto:
         'Champion, C. S. (2019). Proceso productivo de lencería industrial para varones. Facultad de Tecnología, Universidad Nacional de Educación.',
       tipo: 'Página web',
-      link: 'https://www.google.com/',
+      link:
+        'https://repositorio.une.edu.pe/bitstream/handle/UNE/4237/Proceso%20productivo%20de%20lencer%C3%ADa%20industrial%20para%20varones.pdf?sequence=1&isAllowed=y',
     },
     {
       texto:
         'Unidad de producción de confección de prendas de vestir SENATI – IPACE. (2015). Guía del participante.',
       tipo: 'Guía',
-      link: 'https://www.google.com/',
+      link: 'https://docplayer.es/92206900-Guia-del-participante.html',
     },
     {
       texto:
         'Valencia de la M., L. (s.f.). Colección… Saber hacer… Ropa para hombre: Bóxer o calzoncillo.',
       tipo: 'Cartilla -taller',
-      link: 'https://www.google.com/',
+      link:
+        'https://docplayer.es/10486010-Coleccion-saber-hacer-ropa-para-hombre-curso-de-capacitacion-instructivo.html',
     },
     {
       texto: 'Bóxer masculino.',
-      tipo: 'PDFd',
+      tipo: 'PDF',
       descarga: '/downloads/BOXER_MASCULINO.pdf',
     },
     {
       texto: 'Dreamstime.com, 2000.Ropa Interior rosa.',
       tipo: 'imagen',
-      link: 'https://www.google.com/',
+      link:
+        'https://es.dreamstime.com/photos-images/modelo-de-la-ropa-interior-en-color-de-rosa.html',
     },
     {
-      texto: 'Gladys Quevedo, 2013; Lencería y Corsetería.',
-      tipo: 'libro',
-      descarga: '/downloads/prueba.pdf',
+      texto: 'Gladys Quevedo,2013 A; Lencería y Corsetería.',
+      tipo: 'Libro',
+      link:
+        'https://es.scribd.com/doc/194423718/06-Lenceria-Sexy-de-Gladys-Quevedo',
+    },
+    {
+      texto: 'Gladys Quevedo,2013 B; Lencería y Corsetería.',
+      tipo: 'Libro',
+      link:
+        'https://es.scribd.com/doc/194423718/06-Lenceria-Sexy-de-Gladys-Quevedo',
     },
     {
       texto:
         'Sena, 2002; Materiales, insumos y maquinaria para la CONFECCIÓN DE ROPA INTERIOR.',
       tipo: 'Documento',
-      link: 'https://www.google.com/',
+      link:
+        'https://es.scribd.com/document/413343909/175410853-Insumos-y-Materiales-pdf',
     },
     {
       texto: 'Stella Serrano, 2008; Introducción a la corsetería.',
       tipo: 'Sitio Web',
-      link: 'https://www.google.com/',
+      link: 'https://www.elcosturerodestellablog.com/',
     },
     {
       texto:
@@ -341,17 +352,12 @@ export default {
     {
       texto: 'María Eunice Guzman. 2017; Manual de Ropa Interior.',
       tipo: 'Documento',
-      descarga: '/downloads/prueba.pdf',
+      link: 'https://vdocuments.es/manual-patronaje-ind-de-ropa-mujer.html',
     },
     {
       texto: 'Mariel, 2018; El taller de Mariette.',
       tipo: 'Blog',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Next Retail Ltda, 2020; Next.',
-      tipo: 'Sitio Web',
-      link: 'https://www.google.com/',
+      link: 'https://www.eltallerdemariette.com/',
     },
     {
       texto: 'Telas activas, 2019.Microfibra.',
@@ -361,7 +367,7 @@ export default {
     {
       texto: 'María Eleana García, 2018.El Baúl de la Costurera.',
       tipo: 'Sitio Web',
-      link: 'https://www.google.com/',
+      link: 'https://www.elbauldelacosturera.com/',
     },
     {
       texto:
@@ -380,12 +386,13 @@ export default {
     {
       texto: 'Karu, 2020; Estudio Costura.',
       tipo: 'Sitio Web',
-      link: 'https://www.google.com/',
+      link: 'https://www.instagram.com/studiocostura/',
     },
     {
       texto: 'Aurora DG, 2020; Hecho en 5 minutos.',
       tipo: 'Sitio Web',
-      link: 'https://www.google.com/',
+      link:
+        'https://hechoen5minutos.com/curso-gratis-aprende-hacer-tu-propio-sosten/',
     },
     {
       texto:
@@ -424,7 +431,8 @@ export default {
     {
       texto: 'Inimar, 2019; Tipos De Brassiers.',
       tipo: 'Sitio Web',
-      link: 'https://www.google.com/',
+      link:
+        'https://inimar.com/blog/tipos-copas-sujetador-saber-tipo-copa-sujetador-necesito',
     },
     {
       texto: 'Patrones y Cofección, 2020; Cómo hacer un corpiño armado.',
