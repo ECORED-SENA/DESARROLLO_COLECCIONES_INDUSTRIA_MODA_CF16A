@@ -33,6 +33,10 @@
           figure
             img.img-a(src='@/assets/curso/tema_4/img_5.png', alt='Texto que describa la imagen')
 
+        div
+          figure
+            img.img-a(src='@/assets/curso/tema_4/img_72.png', alt='Texto que describa la imagen')
+
     separador
         
     .titulo-segundo
@@ -137,7 +141,7 @@
                         i.fas.fa-check
                         | 2 mariposas o refuerzos
                     
-                    p.BorTit1 #[strong Figura.] Armado de bombacha 
+                    p.BorTit1 #[strong Figura:] Armado de bombacha 
                     figure
                       img.img-a(src='@/assets/curso/tema_4/img_10.png', alt='Texto que describa la imagen')
                 
@@ -348,7 +352,7 @@
                   .col-lg-4
                     .row.justify-content-center
                       .col-lg-10
-                        p.BorTit1 #[strong Figura:] Partes del bóxer.
+                        p.BorTit1 #[strong Figura:] Partes del bóxer
                     figure
                       img.img-a(src='@/assets/curso/tema_4/img_24.png', alt='Texto que describa la imagen')
               .tarjeta.jumbo_3.p-4(titulo="PASO 2")
@@ -375,7 +379,7 @@
                   .col-lg-4
                     .row.justify-content-center
                       .col-lg-10
-                        p.BorTit1 #[strong Figura:] #[i Unión posterior]
+                        p.BorTit1 #[strong Figura:] Unión posterior
                     figure
                       img.img-a(src='@/assets/curso/tema_4/img_26.png', alt='Texto que describa la imagen')
               .tarjeta.jumbo_3.p-4(titulo="PASO 4")
@@ -386,7 +390,7 @@
                   .col-lg-4
                     .row.justify-content-center
                       .col-lg-10
-                        p.BorTit1 #[strong Figura:] #[i Panel delantero]
+                        p.BorTit1 #[strong Figura:] Panel delantero
                     figure
                       img.img-a(src='@/assets/curso/tema_4/img_27.png', alt='Texto que describa la imagen')
               .tarjeta.jumbo_3.p-4(titulo="PASO 5")
@@ -397,7 +401,7 @@
                   .col-lg-4
                     .row.justify-content-center
                       .col-lg-10
-                        p.BorTit1 #[strong Figura:] #[i Entrepierna posterior]
+                        p.BorTit1 #[strong Figura:] Entrepierna posterior
                     figure
                       img.img-a(src='@/assets/curso/tema_4/img_28.png', alt='Texto que describa la imagen')
               .tarjeta.jumbo_3.p-4(titulo="PASO 6")
@@ -408,7 +412,7 @@
                   .col-lg-4
                     .row.justify-content-center
                       .col-lg-10
-                        p.BorTit1 #[strong Figura:] #[i Entrepierna delantera]
+                        p.BorTit1 #[strong Figura:] Entrepierna delantera
                     figure
                       img.img-a(src='@/assets/curso/tema_4/img_29.png', alt='Texto que describa la imagen')
               .tarjeta.jumbo_3.p-4(titulo="PASO 7")
@@ -421,7 +425,7 @@
                   .col-lg-4
                     .row.justify-content-center
                       .col-lg-10
-                        p.BorTit1 #[strong Figura:] #[i Panel delantero]
+                        p.BorTit1 #[strong Figura:] Panel delantero
                     figure
                       img.img-a(src='@/assets/curso/tema_4/img_30.png', alt='Texto que describa la imagen')
               .tarjeta.jumbo_3.p-4(titulo="PASO 8")
@@ -437,7 +441,7 @@
                   .col-lg-4
                     .row.justify-content-center
                       .col-lg-10
-                        p.BorTit1 #[strong Figura:] #[i Panel delantero]
+                        p.BorTit1 #[strong Figura:] Panel delantero
                     figure
                       img.img-a(src='@/assets/curso/tema_4/img_31.png', alt='Texto que describa la imagen')
 
@@ -455,7 +459,7 @@
                   .col-lg-4
                     .row.justify-content-center
                       .col-lg-10
-                        p.BorTit1 #[strong Figura:] #[i Panel delantero]
+                        p.BorTit1 #[strong Figura:] Panel delantero
                     figure
                       img.img-a(src='@/assets/curso/tema_4/img_31.png', alt='Texto que describa la imagen')
 
@@ -530,7 +534,7 @@
                         i.fas.fa-check
                         | Centro
                     .cajon.color-primario.p-4
-                      p Además del paquete técnico compuesto por la ficha técnica, la muestra física todas las herramientas y elementos necesarios, los insumos como son los hilos, el elástico, sesgos y la marquilla.
+                      p Además del paquete técnico compuesto por la ficha técnica, la muestra física, todas las herramientas y elementos necesarios, los insumos como son los hilos, el elástico, sesgos y la marquilla.
                   .col-md-6
                     p.mb-5.BorTit1 #[strong Figura:] Piezas para brasier
                     figure
@@ -734,7 +738,7 @@
                   figure.mb-5
                     img.img-a(src='@/assets/curso/tema_4/img_57.png', alt='Texto que describa la imagen')
                   p El armado se realiza en un extremo libre introduciendo la corredera o tensor.  
-                  p Luego el extremo se introduce otra vez por el mismo extremo por la corredera, quedando el elástico doble dentro de ella, como se ve en la figura. Y se pasa de nuevo justo como la primera vez, sujetando el extremo con remate en zigzag tupido.
+                  p Luego se introduce otra vez el mismo extremo por la corredera, quedando el elástico doble dentro de ella, como se ve en la figura. Y se pasa de nuevo justo como la primera vez, sujetando el extremo con remate en zigzag tupido.
                 .row.justify-content-center(titulo="Paso 6")
                   .h4.mb-5 Paso 6. Pegar elástico a base
                   figure.mb-5

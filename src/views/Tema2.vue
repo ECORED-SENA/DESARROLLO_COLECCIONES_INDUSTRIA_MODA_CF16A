@@ -136,7 +136,7 @@
 
                     p.mb-5 Esta operación también se puede completar tapando la costura con sesgo tapa costura para una mayor fijación.
 
-                    p.txt_bg_2 ** mm milímetros
+                    p.txt_bg_2 ** mm: milímetros
                 
                   .col-md-6
                     figure
@@ -168,19 +168,19 @@
           .col-lg-4
             button.Buton_a.show.ClasePripiaBtn.collapsed.collapse(data-bs-toggle='collapse' data-bs-target='#collapse01' aria-expanded='true' aria-controls='#collapse01' @click="collapsableSeleccionado='collapse01'" ) 
               img.mt-3.mb-3.img-a(src='@/assets/curso/tema_2/img_19.png', alt='')
-              h4.text-center(data-bs-parent='#MapaGroup01') Forrar copas en material #[br]bondeado
+              h4.text-center(data-bs-parent='#MapaGroup01') Forrar copas en #[br] material bondeado
 
                    
           .col-lg-4.d-flex
             button.Buton_a.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse02' aria-expanded='false' aria-controls='#collapse02' @click="collapsableSeleccionado='collapse02'" :class="{'Boton_a__active': collapsableSeleccionado === 'collapse02'}")
               img.mt-3.mb-3.img-a(src='@/assets/curso/tema_2/img_19.png', alt='')
-              h4.text-center(data-bs-parent='#MapaGroup01')  Forrar copas prehormadas
+              h4.text-center(data-bs-parent='#MapaGroup01')  Forrar copas #[br]prehormadas
             
         
           .col-lg-4.d-flex
             button.Buton_a.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse03' aria-expanded='false' aria-controls='#collapse03' @click="collapsableSeleccionado='collapse03'" :class="{'Boton_a__active': collapsableSeleccionado === 'collapse03'}")
               img.mt-3.mb-3.img-a(src='@/assets/curso/tema_2/img_19.png', alt='')
-              h4.text-center(data-bs-parent='#MapaGroup01')  Forrar copas en encaje
+              h4.text-center(data-bs-parent='#MapaGroup01')  Forrar copas #[br]en encaje
                 
 
       .row.justify-content-center.mt-5

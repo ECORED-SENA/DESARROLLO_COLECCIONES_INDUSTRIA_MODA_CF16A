@@ -284,25 +284,25 @@ export default {
     {
       texto:
         'Champion, C. S. (2019). Proceso productivo de lencería industrial para varones. Facultad de Tecnología, Universidad Nacional de Educación.',
-      tipo: 'Página web',
-      link:
-        'https://repositorio.une.edu.pe/bitstream/handle/UNE/4237/Proceso%20productivo%20de%20lencer%C3%ADa%20industrial%20para%20varones.pdf?sequence=1&isAllowed=y',
+      tipo: 'Monografía',
+      descarga:
+        '/downloads/Proceso_productivo_de_lenceria_industrial_para_varones.pdf',
     },
     {
       texto:
         'Unidad de producción de confección de prendas de vestir SENATI – IPACE. (2015). Guía del participante.',
       tipo: 'Guía',
-      link: 'https://docplayer.es/92206900-Guia-del-participante.html',
+      descarga: '/downloads/GUIA_DEL_PARTICIPANTE.pdf',
     },
     {
       texto:
         'Valencia de la M., L. (s.f.). Colección… Saber hacer… Ropa para hombre: Bóxer o calzoncillo.',
-      tipo: 'Cartilla -taller',
-      link:
-        'https://docplayer.es/10486010-Coleccion-saber-hacer-ropa-para-hombre-curso-de-capacitacion-instructivo.html',
+      tipo: 'Cartilla - taller',
+      descarga:
+        '/downloads/Coleccion_Saber_hacer_Ropa_para_hombre_Curso_de_Capacitacion_Instructivo.pdf',
     },
     {
-      texto: 'Bóxer masculino.',
+      texto: 'Bóxer masculino. (s.f).',
       tipo: 'PDF',
       descarga: '/downloads/BOXER_MASCULINO.pdf',
     },
@@ -313,16 +313,9 @@ export default {
         'https://es.dreamstime.com/photos-images/modelo-de-la-ropa-interior-en-color-de-rosa.html',
     },
     {
-      texto: 'Gladys Quevedo,2013 A; Lencería y Corsetería.',
+      texto: 'Gladys Quevedo, 2013; Lencería y Corsetería.',
       tipo: 'Libro',
-      link:
-        'https://es.scribd.com/doc/194423718/06-Lenceria-Sexy-de-Gladys-Quevedo',
-    },
-    {
-      texto: 'Gladys Quevedo,2013 B; Lencería y Corsetería.',
-      tipo: 'Libro',
-      link:
-        'https://es.scribd.com/doc/194423718/06-Lenceria-Sexy-de-Gladys-Quevedo',
+      descarga: '/downloads/LIBRO_COMPLETO_GLADYS_QUEVEDO.zip',
     },
     {
       texto:
@@ -365,7 +358,7 @@ export default {
       link: 'https://www.google.com/',
     },
     {
-      texto: 'María Eleana García, 2018.El Baúl de la Costurera.',
+      texto: 'María Eleana García, 2018. El Baúl de la Costurera.',
       tipo: 'Sitio Web',
       link: 'https://www.elbauldelacosturera.com/',
     },
@@ -418,7 +411,7 @@ export default {
     },
     {
       texto:
-        'Academia Confección Alamoda,2019. DIY Cómo confeccionar un Boxer de hombre.',
+        'Academia Confección Alamoda, 2019. DIY Cómo confeccionar un Bóxer de hombre.',
       tipo: 'Video',
       link: 'https://www.youtube.com/embed/Y3tyM2WTpZ0',
     },
@@ -429,13 +422,13 @@ export default {
         'https://www.youtube.com/watch?v=mKVAgtsoQjA&ab_channel=LIMACONEXPORT',
     },
     {
-      texto: 'Inimar, 2019; Tipos De Brassiers.',
+      texto: 'Inimar, 2019; Tipos De Sujetadores.',
       tipo: 'Sitio Web',
       link:
         'https://inimar.com/blog/tipos-copas-sujetador-saber-tipo-copa-sujetador-necesito',
     },
     {
-      texto: 'Patrones y Cofección, 2020; Cómo hacer un corpiño armado.',
+      texto: 'Patrones y Confección, 2020; Cómo hacer un corpiño armado.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=1yHyKgmgl_8&ab_channel=PatronesyConfecci%C3%B3n',
@@ -459,17 +452,17 @@ export default {
       {
         nombre: 'María Luisa Yepes Sierra',
         cargo: 'Instructora',
-        centro: 'Centro de Diseño Confección y Moda - Regional Antioquia',
+        centro: 'Centro de Diseño, Confección y Moda - Regional Antioquia',
       },
       {
         nombre: 'Marisol Osorio Beltrán',
         cargo: 'Líder Sennova',
-        centro: 'Centro de Diseño Confección y Moda - Regional Antioquia',
+        centro: 'Centro de Diseño, Confección y Moda - Regional Antioquia',
       },
       {
         nombre: 'Jhon Fernando Jaramillo Taborda',
         cargo: 'Investigador – Grupo de investigación INAMOD',
-        centro: 'Centro de Diseño Confección y Moda - Regional Antioquia',
+        centro: 'Centro de Diseño, Confección y Moda - Regional Antioquia',
       },
       {
         nombre: 'Liliana Victoria Morales Gualdrón',
