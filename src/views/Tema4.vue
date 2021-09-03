@@ -35,6 +35,10 @@
 
         div
           figure
+            img.img-a(src='@/assets/curso/tema_4/img_73.png', alt='Texto que describa la imagen')
+
+        div
+          figure
             img.img-a(src='@/assets/curso/tema_4/img_72.png', alt='Texto que describa la imagen')
 
     separador
