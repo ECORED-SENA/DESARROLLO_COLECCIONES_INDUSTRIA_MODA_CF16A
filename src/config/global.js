@@ -302,12 +302,6 @@ export default {
       descarga: '/downloads/BOXER_MASCULINO.pdf',
     },
     {
-      texto: 'Dreamstime.com, 2000.Ropa Interior rosa.',
-      tipo: 'imagen',
-      link:
-        'https://es.dreamstime.com/photos-images/modelo-de-la-ropa-interior-en-color-de-rosa.html',
-    },
-    {
       texto: 'Gladys Quevedo, 2013; Lencería y Corsetería.',
       tipo: 'Libro',
       descarga: '/downloads/LIBRO_COMPLETO_GLADYS_QUEVEDO.zip',
