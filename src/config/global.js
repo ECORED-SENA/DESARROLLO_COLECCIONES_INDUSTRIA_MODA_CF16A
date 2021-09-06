@@ -93,11 +93,6 @@ export default {
         nombreRuta: 'referencias',
       },
       {
-        icono: 'fas fa-download',
-        titulo: 'Descargar material',
-        download: 'downloads/material.zip',
-      },
-      {
         icono: 'far fa-registered',
         titulo: 'Créditos',
         nombreRuta: 'creditos',
@@ -353,9 +348,9 @@ export default {
       link: 'https://www.eltallerdemariette.com/',
     },
     {
-      texto: 'Telas activas, 2019.Microfibra.',
+      texto: 'Telas activas, 2019. Microfibra.',
       tipo: 'Imagen',
-      link: 'https://www.google.com/',
+      link: 'https://www.telasactivas.es/catalogsearch/result/?q=microfibra',
     },
     {
       texto: 'María Eleana García, 2018. El Baúl de la Costurera.',
